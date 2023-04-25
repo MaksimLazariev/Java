@@ -21,7 +21,7 @@ public class program {
         int temp=0;
 
         Logger log = Logger.getLogger(program.class.getName());
-        FileHandler fh = new FileHandler("logger.log");
+        FileHandler fh = new FileHandler("Homework02/Task02/logger.log");
         log.addHandler(fh);
         fh.setFormatter(new SimpleFormatter());
 
